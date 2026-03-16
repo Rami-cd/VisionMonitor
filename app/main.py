@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from routes import router
-from tracker_system.config import settings
+from core.config import settings
 
 app = FastAPI(
     title="Urban Video Analytics API"
